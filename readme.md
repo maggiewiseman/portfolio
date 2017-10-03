@@ -30,3 +30,7 @@ The goal was to build a server that would initially respond with an index.html f
 * in order to build the html string I utilized a templating language: handlebars.  
     * this meant installing handlebars via npm install
     
+## Screenshots
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Landing page." />
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Sample project description page: Connect 4" />
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Sample project description page: Github Search." />
