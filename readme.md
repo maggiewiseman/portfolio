@@ -1,13 +1,16 @@
-# What I did in this projectList
+# Portfolio Project
 
-The goal was to build a server that would initially respond with an index.html file containing links to various projects in the projects directory. To do this I created the following structure:
+<a href="https://maggie-wiseman-portfolio.herokuapp.com/carousel/description">See it live!</a>
 
-server module
+## Summary & Structure
+The goal was to build a server that would initially respond with an index.html file containing links to various projects in the projects directory. The projects are a collection of my javascript projects. This is my first real Node.js project.  I used the built in HTTP server module as well as the fs module to dynamically determine the list of projects to display. 
+
+**server module**
 * creates a map of the files in the projects directory that is used to validate requested urls.  Having a static list is not ideal because it prevents someone from finding newly added projects unless the server is restarted, but it was an opportunity to revisit recursively generating a tree structure using the built in module: fs.
 * starts the server listening on port 8080
 * validates any request and then sends the request off to a handler module which will create the response.
 
-handler module
+**handler module**
 * this module contains a function called handleReqs that takes 3 parameters:
     * request: the request object.  The url of the request object is used for determining which project to send back in the response.
     * response: the response object. Used to send data back to the client.
@@ -22,7 +25,7 @@ handler module
         * provides the absolute path to the requested file.
         * I decided to send the fileMap object as a parameter because it is created synchronously.  Thus, I only want to build it once and, to prevent it blocking requests, do it before starting the server. Therefore, it has to be sent to the handler so that handler can use it for finding the requested file.
 
-projectList module
+**projectList module**
 * has one method that returns an html string producing a page with links to project directories
 * in order to build the html string I utilized a templating language: handlebars.  
     * this meant installing handlebars via npm install
