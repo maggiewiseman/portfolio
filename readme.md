@@ -31,6 +31,6 @@ The goal was to build a server that would initially respond with an index.html f
     * this meant installing handlebars via npm install
     
 ## Screenshots
-<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Landing page." />
-<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Sample project description page: Connect 4" />
-<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-creenshots/landingPage.png" width="400px" alt="Sample project description page: Github Search." />
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-screenshots/landingPage.png" width="400px" alt="Landing page." />
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-screenshots/connect4.png" width="400px" alt="Sample project description page: Connect 4" />
+<img src="https://raw.githubusercontent.com/maggiewiseman/portfolio/master/site-screenshots/github.png" width="400px" alt="Sample project description page: Github Search." />
