@@ -1,6 +1,6 @@
 # Portfolio Project
 
-<a href="https://maggie-wiseman-portfolio.herokuapp.com/carousel/description">See it live!</a>
+<a href="https://maggie-wiseman-portfolio.herokuapp.com/carousel/description">See the Express.js version here!</a>
 
 ## Summary & Structure
 The goal was to build a server that would initially respond with an index.html file containing links to various projects in the projects directory. The projects are a collection of my javascript projects. This is my first real Node.js project.  I used the built in HTTP server module as well as the fs module to dynamically determine the list of projects to display. 
